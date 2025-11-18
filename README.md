@@ -1,9 +1,6 @@
-# AI-ML-Portfolio
-A portfolio showcasing key AI/ML skills, from data fundamentals to advanced deep learning (CV/NLP) and deployment.
-
 # 🤖 AI & Machine Learning Sprint Portfolio
 
-This repository documents my journey through 18 comprehensive AI/ML sprint missions, covering topics from fundamental Python programming to advanced model deployment. Each folder contains the code and analysis for the corresponding mission.
+Hi, I'm Jaemoon Jeong, a Mechanical Engineer (Ph.D.). This repository documents my systematic journey to integrate advanced AI/ML capabilities with my domain expertise. It covers 18 comprehensive sprints, from data fundamentals to full-stack model deployment.
 
 ---
 
