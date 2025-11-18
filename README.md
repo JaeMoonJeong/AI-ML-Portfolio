@@ -1,33 +1,35 @@
-# 🤖 AI & Machine Learning Sprint Portfolio
+# 🤖 AI & Machine Learning Project Portfolio
 
-Hi, I'm Jae-Moon Jeong, a Mechanical Engineer (Ph.D.). This repository documents my systematic journey to integrate advanced AI/ML capabilities with my domain expertise. It covers 18 comprehensive sprints, from data fundamentals to full-stack model deployment.
+Hi, I'm Jae-Moon Jeong, a Mechanical Engineer (Ph.D.). This repository documents my systematic journey to integrate advanced AI/ML capabilities with my domain expertise. It covers 18 comprehensive projects, from data fundamentals to full-stack model deployment.
 
 ---
 
 ## 🚀 Mission Dashboard
 
-This table provides a high-level overview of all 18 sprints, their domains, and the core technologies used.
+This table provides a high-level overview of all 18 projects, their domains, and the core technologies used.
 
-| Sprint | Directory | Title & Domain | Core Concepts & Models |
+| Project | Date Completed | Title & Domain | Core Concepts & Models |
 | :--- | :--- | :--- | :--- |
-| **01** | [`/01_python_fundamentals/`](./01_python_fundamentals/) | **Python Fundamentals & OOP** | `Python`, `Functions`, `OOP`, `Class Design`, `Error Handling` |
-| **02** | [`/02_hotel_booking_eda/`](./02_hotel_booking_eda/) | **Hotel Booking EDA** | `Pandas`, `Data Analysis`, `EDA`, `Visualization`, `Seaborn` |
-| **03** | [`/03_bike_demand_prediction/`](./03_bike_demand_prediction/) | **Bike Demand Prediction** | `Regression`, `Feature Engineering`, `ML Models`, `RMSLE` |
-| **04** | [`/04_ensemble_methods/`](./04_ensemble_methods/) | **Ensemble Techniques** | `Decision Tree`, `Random Forest`, `XGBoost`, `Classification` |
-| **05** | [`/05_document_denoising/`](./05_document_denoising/) | **Document Denoising** | `Autoencoder`, `Denoising`, `Image Restoration`, `PyTorch` |
-| **06** | [`/06_pneumonia_classification/`](./06_pneumonia_classification/) | **Pneumonia Classification** | `Classification`, `Transfer Learning`, `Fine-Tuning`, `CNN` |
-| **07** | [`/07_pet_face_detection/`](./07_pet_face_detection/) | **Pet Face Detection** | `Object Detection`, `SSD`, `Bounding Box`, `mAP`, `IOU` |
-| **08** | [`/08_football_segmentation/`](./08_football_segmentation/) | **Football Video Segmentation** | `Semantic Segmentation`, `U-Net`, `Pixel-level`, `Dice Loss` |
-| **09** | [`/09_fashion_cgan/`](./09_fashion_cgan/) | **Fashion Image Generation** | `Generative AI`, `GAN`, `cGAN`, `Image Generation` |
-| **10** | [`/10_text_embedding/`](./10_text_embedding/) | **Text Data & Embedding** | `NLP`, `Embedding`, `Word2Vec`, `TF-IDF` |
-| **11** | [`/11_pretrained_nlp/`](./11_pretrained_nlp/) | **Pre-trained NLP Models** | `Transformers`, `BERT`, `GPT`, `Fine-Tuning` |
-| **12** | [`/12_llm_prompting/`](./12_llm_prompting/) | **LLM & Prompt Engineering** | `LLM`, `Prompt Engineering`, `In-Context Learning` |
-| **13** | [`/13_peft/`](./13_peft/) | **PEFT** | `PEFT`, `LoRA`, `Parameter-Efficient Fine-Tuning` |
-| **14** | [`/14_rag/`](./14_rag/) | **RAG (Retrieval-Augmented Gen)** | `RAG`, `LangChain`, `VectorDB`, `LLM` |
-| **15** | [`/15_docker/`](./15_docker/) | **Docker for MLOps** | `Docker`, `Containerization`, `MLOps`, `Dockerfile` |
-| **16** | [`/16_model_optimization/`](./16_model_optimization/) | **Model Optimization** | `Model Optimization`, `Quantization`, `Pruning` |
-| **17** | [`/17_web_prototyping/`](./17_web_prototyping/) | **Web Prototyping** | `Streamlit`, `Flask`, `Web App`, `Prototyping` |
-| **18** | [`/18_fastapi_serving/`](./18_fastapi_serving/) | **FastAPI Model Serving** | `FastAPI`, `API`, `Model Serving`, `Uvicorn`, `MLOps` |
+| **01** | 2025-08-11 | **Python Fundamentals & OOP** | `Python`, `Functions`, `OOP`, `Class Design`, `Error Handling` |
+| **02** | 2025-08-20 | **Hotel Booking EDA** | `Pandas`, `Data Analysis`, `EDA`, `Visualization`, `Seaborn` |
+| **03** | 2025-08-26 | **Bike Demand Prediction** | `Regression`, `Feature Engineering`, `ML Models`, `RMSLE` |
+| **04** | 2025-08-29 | **Ensemble Techniques** | `Decision Tree`, `Random Forest`, `XGBoost`, `Classification` |
+| **05** | 2025-09-18 | **Document Denoising** | `Autoencoder`, `Denoising`, `Image Restoration`, `PyTorch` |
+| **06** | 2025-09-25 | **Pneumonia Classification** | `Classification`, `Transfer Learning`, `Fine-Tuning`, `CNN` |
+| **07** | 2025-09-30 | **Pet Face Detection** | `Object Detection`, `SSD`, `Bounding Box`, `mAP`, `IOU` |
+| **08** | 2025-10-13 | **Football Video Segmentation** | `Semantic Segmentation`, `U-Net`, `Pixel-level`, `Dice Loss` |
+| **09** | 2025-10-15 | **Fashion Image Generation** | `Generative AI`, `GAN`, `cGAN`, `Image Generation` |
+| **10** | 2025-11-14 | **Text Data & Embedding** | `NLP`, `Embedding`, `Word2Vec`, `TF-IDF` |
+| **11** | 2025-11-19 | **Pre-trained NLP Models** | `Transformers`, `BERT`, `GPT`, `Fine-Tuning` |
+| **12** | 2025-11-26 | **LLM & Prompt Engineering** | `LLM`, `Prompt Engineering`, `In-Context Learning` |
+| **13** | 2025-12-04 | **PEFT** | `PEFT`, `LoRA`, `Parameter-Efficient Fine-Tuning` |
+| **14** | 2025-12-10 | **RAG (Retrieval-Augmented Gen)** | `RAG`, `LangChain`, `VectorDB`, `LLM` |
+| **15** | 2026-01-08 | **Docker for MLOps** | `Docker`, `Containerization`, `MLOps`, `Dockerfile` |
+| **16** | 2026-01-14 | **Model Optimization** | `Model Optimization`, `Quantization`, `Pruning` |
+| **17** | 2026-01-19 | **Web Prototyping** | `Streamlit`, `Flask`, `Web App`, `Prototyping` |
+| **18** | 2026-01-28 | **FastAPI Model Serving** | `FastAPI`, `API`, `Model Serving`, `Uvicorn`, `MLOps` |
+
+---
 
 ---
 
