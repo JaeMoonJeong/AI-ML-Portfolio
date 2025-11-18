@@ -1,6 +1,6 @@
 # 🤖 AI & Machine Learning Sprint Portfolio
 
-Hi, I'm Jaemoon Jeong, a Mechanical Engineer (Ph.D.). This repository documents my systematic journey to integrate advanced AI/ML capabilities with my domain expertise. It covers 18 comprehensive sprints, from data fundamentals to full-stack model deployment.
+Hi, I'm Jae-Moon Jeong, a Mechanical Engineer (Ph.D.). This repository documents my systematic journey to integrate advanced AI/ML capabilities with my domain expertise. It covers 18 comprehensive sprints, from data fundamentals to full-stack model deployment.
 
 ---
 
