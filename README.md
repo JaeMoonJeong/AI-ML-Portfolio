@@ -8,7 +8,7 @@ Hi, I'm Jae-Moon Jeong, a Mechanical Engineer (Ph.D.). This repository documents
 
 This table provides a high-level overview of all 18 projects, their domains, and the core technologies used.
 
-| Project | Date Completed | Title & Domain | Core Concepts & Models |
+| No | Date Completed | Title & Domain | Core Concepts & Models |
 | :--- | :--- | :--- | :--- |
 | **01** | 2025-08-11 | **Python Fundamentals & OOP** | `Python`, `Functions`, `OOP`, `Class Design`, `Error Handling` |
 | **02** | 2025-08-20 | **Hotel Booking EDA** | `Pandas`, `Data Analysis`, `EDA`, `Visualization`, `Seaborn` |
