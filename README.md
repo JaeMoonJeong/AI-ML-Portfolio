@@ -8,7 +8,7 @@ Hi, I'm Jae-Moon Jeong, a Mechanical Engineer (Ph.D.). This repository documents
 
 This table provides a high-level overview of all 18 sprints, their domains, and the core technologies used.
 
-| Sprint | Directory | Title & Domain | Core Concepts & Models |
+| Project | Directory | Title & Domain | Core Concepts & Models |
 | :--- | :--- | :--- | :--- |
 | **01** | [`/01_python_fundamentals/`](./01_python_fundamentals/) | **Python Fundamentals & OOP** | `Python`, `Functions`, `OOP`, `Class Design`, `Error Handling` |
 | **02** | [`/02_hotel_booking_eda/`](./02_hotel_booking_eda/) | **Hotel Booking EDA** | `Pandas`, `Data Analysis`, `EDA`, `Visualization`, `Seaborn` |
