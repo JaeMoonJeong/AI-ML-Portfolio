@@ -1,12 +1,12 @@
-# 🤖 AI & Machine Learning Sprint Portfolio
+# 🤖 AI & Machine Learning Project Portfolio
 
-Hi, I'm Jae-Moon Jeong, a Mechanical Engineer (Ph.D.). This repository documents my systematic journey to integrate advanced AI/ML capabilities with my domain expertise. It covers 18 comprehensive sprints, from data fundamentals to full-stack model deployment.
+Hi, I'm Jae-Moon Jeong, a Mechanical Engineer (Ph.D.). This repository documents my systematic journey to integrate advanced AI/ML capabilities with my domain expertise. It covers 18 comprehensive projects, from data fundamentals to full-stack model deployment.
 
 ---
 
 ## 🚀 Mission Dashboard
 
-This table provides a high-level overview of all 18 sprints, their domains, and the core technologies used.
+This table provides a high-level overview of all 18 projects, their domains, and the core technologies used.
 
 | Project | Directory | Title & Domain | Core Concepts & Models |
 | :--- | :--- | :--- | :--- |
