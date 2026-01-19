@@ -11,8 +11,7 @@ menu = st.sidebar.selectbox("메뉴", ["영화 목록", "영화 등록", "리뷰
 # 1. 영화 목록 표시
 if menu == "영화 목록":
     st.header("🎥 등록된 영화 목록")
-    # 실제 구현 시에는 requests.get("http://localhost:8000/movies") 사용
-    # 예시를 위한 가이드 레이아웃
+    BACKEND_URL = "http://34.47.66.39:8000"
     try:
         # 백엔드에서 실제 영화 데이터 가져오기
         response = requests.get(f"{BACKEND_URL}/movies/")
