@@ -53,4 +53,59 @@ cd researcher1
 
 # Jupyter Notebook을 실행하여 EDA 수행
 jupyter notebook train_notebook.ipynb
+
+```
+
+
+* **EDA 주요 내용:** 데이터 분포 확인, 결측치 검사, 상관관계 분석, 시각화
+    - 데이터 분포 확인: 각 변수의 수치적 분포 및 이상치 파악
+    - 결측치 검사: 데이터셋 내 누락된 값 확인 및 처리 전략 수립
+    - 상관관계 분석: 독립 변수들과 목표 변수(Performance Index) 간의 선형/비선형 관계 분석
+    - 시각화: 히스토그램, 산점도 등을 활용한 데이터 특징 가시화
+    
+### 2단계: 모델 학습
+
+Python 스크립트를 실행하여 모델을 학습시키고 결과물을 생성합니다.
+
+```bash
+# 기본 학습 실행
+python train.py
+
+# 또는 옵션을 지정하여 실행
+python train.py --data data/train.csv --output model.pkl
+
+```
+
+* **모델 출력:** `model.pkl` (학습된 모델 + 전처리 객체)
+
+### 3단계: Docker 이미지 빌드
+
+구성된 환경을 컨테이너 이미지로 패키징하고 테스트합니다.
+
+```bash
+# 이미지 빌드
+docker build -t mission15-researcher1 .
+
+# 테스트 실행 (Jupyter Notebook)
+docker run -p 8888:8888 mission15-researcher1
+
+# 테스트 실행 (학습 스크립트)
+docker run mission15-researcher1 python train.py
+
+```
+
+---
+
+## 🚀 연구자 2: 모델 추론 (Researcher 2 Inference)
+
+연구자 2는 배포된 이미지를 활용하여 최종 추론을 수행합니다. 구체적인 실행 방법은 `researcher2/docker-compose.yml` 설정을 따릅니다.
+
+```bash
+cd researcher2
+docker-compose up
+
+```
+
+```
+
 ```
