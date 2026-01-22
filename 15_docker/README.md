@@ -119,21 +119,6 @@ docker push <your-username>/mission15-researcher1:latest
 ---
 
 
-### 4단계: Docker Hub 푸시
-빌드된 이미지를 원격 저장소에 공유하여 연구자 2가 사용할 수 있도록 합니다.
-
-```bash
-# Docker Hub 로그인
-docker login
-
-# 이미지 태그 지정
-docker tag mission15-researcher1 <your-username>/mission15-researcher1:latest
-
-# 이미지 푸시
-docker push <your-username>/mission15-researcher1:latest
-
-```
-
 ### 5단계: model.pkl 전달
 
 학습된 모델 파일을 연구자 2에게 전달하는 두 가지 방법입니다.
@@ -154,7 +139,6 @@ docker run -v $(pwd)/output:/app/output mission15-researcher1 \
 python train.py --output /app/output/model.pkl
 
 ```
-
 
 
 ---
@@ -234,8 +218,3 @@ head outputs/result.csv
 
 ---
 
-이 리포트를 통해 연구자 1과 2 사이의 데이터 및 모델 전달 과정이 매우 명확해졌습니다.
-
-**추가로 궁금하신 점이나, `docker-compose.yml`의 내부 설정값이 필요하시면 말씀해 주세요.**
-
-```
