@@ -53,11 +53,4 @@ cd researcher1
 
 # Jupyter Notebook을 실행하여 EDA 수행
 jupyter notebook train_notebook.ipynb
-EDA 주요 내용:
-데이터 분포 확인: 각 변수의 수치적 분포 및 이상치 파악
-
-결측치 검사: 데이터셋 내 누락된 값 확인 및 처리 전략 수립
-
-상관관계 분석: 독립 변수들과 목표 변수(Performance Index) 간의 선형/비선형 관계 분석
-
-시각화: 히스토그램, 산점도 등을 활용한 데이터 특징 가시화
+```
