@@ -29,35 +29,35 @@ mission15/
 
 ```
 
-## 🛠 실행 가이드
-1. 연구자 1: 모델 학습 및 이미지 빌드
-researcher1 디렉토리에서 필요한 라이브러리를 정의하고 Docker 이미지를 생성합니다.
+## 📊 데이터셋 설명 (Dataset Description)
+모델 학습에 사용되는 주요 변수들에 대한 정의입니다. 학업 성취도(`Performance Index`)를 예측하기 위한 5개의 독립 변수로 구성되어 있습니다.
 
-Bash
-cd researcher1
-# Docker 이미지 빌드
-docker build -t ml-collaboration-env:latest .
-2. 연구자 2: Docker Compose를 활용한 추론
-연구자 2는 정의된 docker-compose.yml을 통해 일관된 환경에서 추론 스크립트를 실행합니다.
-
-Bash
-cd researcher2
-# 컨테이너 실행 및 추론 수행
-docker-compose up
-📝 주요 구성 요소 설명
-Dockerfile: python:3.9-slim 등의 베이스 이미지를 기반으로 학습 환경을 패키징합니다.
-
-docker-compose.yml: 볼륨 마운트를 통해 학습된 모델 파일이나 데이터를 컨테이너 간에 공유할 수 있도록 설정합니다.
-
-Requirements: pandas, scikit-learn, torch 등 협업에 필요한 공통 라이브러리를 명시합니다.
-
+| 변수명 | 설명 |
+| :--- | :--- |
+| **Hours Studied** | 공부한 총 시간 |
+| **Previous Scores** | 이전 시험 점수 |
+| **Extracurricular Activities** | 과외 활동 참여 여부 (Yes/No) |
+| **Sleep Hours** | 하루 평균 수면 시간 |
+| **Sample Question Papers Practiced** | 연습한 모의고사 수 |
+| **Performance Index** | **목표 변수 (10~100, 학업 성취도)** |
 
 ---
 
-### 💡 실행력을 높이기 위한 제언
-현재 구조에서 **연구자 1이 학습한 모델 파일**을 연구자 2가 어떻게 전달받을지가 핵심입니다.
+## 🔬 연구자 1: 학습 파이프라인 (Researcher 1 Pipeline)
 
-1.  **Action Plan**: `researcher1`에서 생성된 모델 결과물(예: `model.pth`)이 자동으로 `researcher2`의 특정 경로로 복사되거나, 공통 볼륨을 바라보게끔 `docker-compose.yml`을 작성하는 것이 좋습니다.
-2.  **질문**: 모델 파일의 확장자는 무엇으로 결정하셨나요? (예: `.pkl`, `.h5`, `.onnx` 등) 확장자에 따라 `requirements.txt`에 추가할 라이브러리가 달라질 수 있습니다.
+### 1단계: 환경 설정 및 EDA
+연구자 1은 로컬 또는 컨테이너 환경에서 데이터를 탐색하고 모델링 방향을 설정합니다.
 
-혹시 `researcher1` 폴더에 들어갈 구체적인 **Dockerfile** 예시 코드가 필요하신가요?
+```bash
+cd researcher1
+
+# Jupyter Notebook을 실행하여 EDA 수행
+jupyter notebook train_notebook.ipynb
+EDA 주요 내용:
+데이터 분포 확인: 각 변수의 수치적 분포 및 이상치 파악
+
+결측치 검사: 데이터셋 내 누락된 값 확인 및 처리 전략 수립
+
+상관관계 분석: 독립 변수들과 목표 변수(Performance Index) 간의 선형/비선형 관계 분석
+
+시각화: 히스토그램, 산점도 등을 활용한 데이터 특징 가시화
