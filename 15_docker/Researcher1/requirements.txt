@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+joblib
+matplotlib
+seaborn
+
+# Jupyter 실행을 위해 반드시 필요
+notebook
+jupyter

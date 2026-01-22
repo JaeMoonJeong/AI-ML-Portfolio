@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.git/
+.env
+# 이미 빌드된 모델이나 결과물은 제외하는 것이 깔끔합니다
+output/
+model.pkl

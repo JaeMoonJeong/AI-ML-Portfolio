@@ -12,15 +12,15 @@
 
 ```text
 mission15/
-├── researcher1/                # 연구자 1 작업 폴더
-│   ├── train_notebook.ipynb    # EDA 및 모델링 분석 노트북
+├── researcher1/                # 연구자 1 작업 폴더 
+│   ├── train_notebook.ipynb    # EDA 및 모델링 분석 노트북 (서비스 할 경우에는 빼라!)
 │   ├── train.py                # 모델 학습 파이프라인 스크립트
 │   ├── Dockerfile              # 가상 환경 구성을 위한 Docker 정의 파일
 │   ├── requirements.txt        # 프로젝트에 필요한 Python 패키지 목록
 │   └── data/
 │       └── train.csv           # 모델 학습용 데이터
 ├── researcher2/                # 연구자 2 작업 폴더
-│   ├── inference.ipynb         # 추론 테스트 및 결과 확인 노트북
+│   ├── inference.ipynb         # 추론 테스트 및 결과 확인 노트북 (서비스 할 경우에는 빼라!)
 │   ├── inference.py            # 실제 추론 수행 스크립트
 │   ├── docker-compose.yml      # 서비스 오케스트레이션 및 환경 설정
 │   └── data/
