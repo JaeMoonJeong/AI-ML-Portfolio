@@ -63,6 +63,9 @@ jupyter notebook train_notebook.ipynb
     - 상관관계 분석: 독립 변수들과 목표 변수(Performance Index) 간의 선형/비선형 관계 분석
     - 시각화: 히스토그램, 산점도 등을 활용한 데이터 특징 가시화
 
+
+---
+
 ### 2단계: 모델 학습
 
 Python 스크립트를 실행하여 모델을 학습시키고 결과물을 생성합니다.
@@ -77,6 +80,8 @@ python train.py --data data/train.csv --output model.pkl
 ```
 
 * **모델 출력:** `model.pkl` (학습된 모델 + 전처리 객체)
+
+---
 
 ### 3단계: Docker 이미지 빌드
 
@@ -111,12 +116,8 @@ docker push <your-username>/mission15-researcher1:latest
 ```
 
 
-이미지의 모든 단계(연구자 1의 4~5단계 및 연구자 2의 전 과정)를 포함하여 완성한 `README.md` 최종본입니다.
-
 ---
 
-```markdown
-## 🔬 연구자 1: 모델 배포 및 전달 (Researcher 1 Continued)
 
 ### 4단계: Docker Hub 푸시
 빌드된 이미지를 원격 저장소에 공유하여 연구자 2가 사용할 수 있도록 합니다.
