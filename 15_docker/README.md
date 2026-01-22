@@ -159,9 +159,12 @@ cp ../researcher1/model.pkl ./model.pkl
 
 ### 2단계: Docker 환경 실행
 
-`docker-compose.yml`을 통해 추론 환경을 구동합니다.
+
 
 ```bash
+# docker-compose.yml을 통해 추론 환경을 구동합니다.
+# 이미지를 Docker Hub에서 가져오거나 로컬 빌드
+
 # Docker Compose 실행
 docker-compose up
 
@@ -202,13 +205,13 @@ head outputs/result.csv
 ## 📝 주요 명령어 요약 (Summary)
 
 ### 연구자 1
-
+```
 * **빌드**: `docker build -t mission15-researcher1 .`
 * **학습**: `docker run -v $(pwd)/output:/app/output mission15-researcher1 python train.py --output /app/output/model.pkl`
 * **푸시**: `docker push <username>/mission15-researcher1:latest`
-
+```
 ### 연구자 2
-
+```
 * **이미지 풀**: `docker pull <username>/mission15-researcher1:latest`
 * **환경 실행**: `docker-compose up -d`
 * **추론 실행**: `docker-compose exec inference python inference.py`
