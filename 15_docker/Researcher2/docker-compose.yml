@@ -65,7 +65,7 @@ services:
       dockerfile: Dockerfile
 
     container_name: mission15-inference-batch
-
+    command: python inference.py
     volumes:
       - ./inference.py:/app/inference.py
       - ./data/test.csv:/app/data/test.csv
