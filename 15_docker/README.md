@@ -10,7 +10,8 @@
 
 ## 📂 프로젝트 구조
 
-mission15/
+mission15
+
 ├── researcher1/                # 연구자 1 작업 폴더
 │   ├── train_notebook.ipynb    # EDA 및 모델링 분석 노트북
 │   ├── train.py                # 모델 학습 파이프라인 스크립트
